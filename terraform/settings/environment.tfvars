@@ -18,4 +18,4 @@ resource_group_name="solsa-garage"
 vlan_region="us-east"
 
 # Flag indicating if we are using an existing postgres server or creating a new one
-postgres_server_exists="false"
+postgres_server_exists="true"
