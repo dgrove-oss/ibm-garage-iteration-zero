@@ -1,7 +1,7 @@
 # The type of cluster that will be created/used (kubernetes or openshift)
-cluster_type="kubernetes"
+cluster_type="crc"
 # Flag indicating if we are using an existing cluster or creating a new one
-cluster_exists="false"
+cluster_exists="true"
 
 # The prefix that should be applied to the cluster name and service names (if not provided
 # explicitly). If not provided then the resource_group_name will be used as the prefix.
@@ -14,7 +14,7 @@ cluster_exists="false"
 # - "${resource_group_name}-cluster"
 #cluster_name="<cluster name>"
 
-resource_group_name="<resource group>"
+resource_group_name="crc-resource-group"
 vlan_region="us-east"
 
 # Flag indicating if we are using an existing postgres server or creating a new one
